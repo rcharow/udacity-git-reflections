@@ -1,0 +1,32 @@
+How does diff help compare files?
+
+DIFF helps compare files and find bugs
+because you don't have to search thousands 
+of lines of code visually.
+It finds the differences for you.
+
+How does having easy access to the history of your work make you a better programmer?
+- You can easily look at previous versions
+- You can see the evolution of your work
+- If you make a mistake you can roll back to a previous version
+- You don't have to search for bugs in a new version manually
+
+What are the pros and cons of manually saving vs automatically saving
+- You can save at logical intervals
+- Your code will make sense, it won't be cut off in the middle of a line
+- It will be easier to find errors
+- You can save sooner if you make an important change in a short period of time
+
+Why do some version control systems save versions of multiple files?
+- Files in projects are related so you need to see changes in all the related files
+
+How can you use the commands git log and git diff to show the history of files?
+- git log lists the history of commits with their ids
+- You can compare commits using the ids from git log and the git diff command
+
+How might using version control make you more confident about making changes that could break something?
+- If you know you can go back to a previous version, you won't be afraid to break things.
+
+What do you want to use git for?
+- Storing previous versions of code so I can roll back if I make a mistake
+- Creating branches to try different things in an application
