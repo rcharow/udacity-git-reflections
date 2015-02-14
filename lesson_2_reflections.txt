@@ -1,0 +1,8 @@
+What happens with you initialize a git repository? Why do you need to do it?
+When you initialize a git repository, git creates a git directory in your repository directory.
+You need to do this to track the files in the repo.
+
+How is the staging area different from the staging area and repo? What value does it offer?
+The staging area keeps track of files that are going to be committed.
+It allows you to choose certain files from the repo to commit.
+This means that you don't have to commit all of the files in your repo.
