@@ -18,3 +18,7 @@ You can make sure your master branch stays the same while trying out new things.
 How do the diagrams help you visualize the branch structure?
 Diagrams can help you easily see which commits are unreachable.
 It is easy to visually trace back through commit parents with a diagram.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together puts all of the changes for the 2 branches into one new branch (master).
+We represent it in a diagram so that we can see all of the commits and their reachability.
