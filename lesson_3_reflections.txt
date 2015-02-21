@@ -12,3 +12,9 @@ Branches are different versions of the same repo.
 You use a fork when you want to work on somebody else's repo but you don't have permission to push changes to it.
 You use a branch when you want to make a different version of your code, like an experimental version.
 You use a clone to make a copy of a branch from GitHub on your local machine.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+If you have a copy of the last known state of the remote, you can see if there have been changes
+made on the remote that you don't have locally yet.
+You can then merge those changes without touching your local master, and then choose to merge 
+the two branches later and resolve conflicts if you need to.
