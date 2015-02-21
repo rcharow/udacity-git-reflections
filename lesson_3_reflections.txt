@@ -4,3 +4,11 @@ You could also use a remote repository to back up your work.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If somebody else makes a change to the remote, you might want to review it before pulling the changes.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are clones of somebody else's repo on your GitHub account.  They only live on GitHub.
+Clones are copies of a repo. You can clone a fork to your local machine to work on it.
+Branches are different versions of the same repo.
+You use a fork when you want to work on somebody else's repo but you don't have permission to push changes to it.
+You use a branch when you want to make a different version of your code, like an experimental version.
+You use a clone to make a copy of a branch from GitHub on your local machine.
