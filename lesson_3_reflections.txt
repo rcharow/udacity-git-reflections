@@ -18,3 +18,10 @@ If you have a copy of the last known state of the remote, you can see if there h
 made on the remote that you don't have locally yet.
 You can then merge those changes without touching your local master, and then choose to merge 
 the two branches later and resolve conflicts if you need to.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Git/GitHub, you could collaborate either by having everyone edit the same file, or using different
+files and then manually merging them into a different one.
+This would make merging and keeping track of changes much more difficult than when using git
+It is easier to collaborate with git because everyone can work on and keep track of changes in their own version, 
+and changes can be reviewed before they are merged into the production version.
