@@ -28,8 +28,3 @@ What are the pros and cons of Git’s automatic merging vs. always doing merges 
 - The pros are that it merges automatically when it can, which saves time.  Also, it doesn't make decisions
 about merge conflicts that could mess up your application.
 
-When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
-You might want to make changes in a separate branch if you want to try something experimental without affecting the master, 
-or if you want to make a different version of something.
-You also might want to make a new branch to make changes for a pull request on GitHub.
-Then once your changes are accepted and merged into the master branch, you can just delete the branch you made the change on.
